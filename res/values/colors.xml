@@ -17,6 +17,9 @@
 <resources
     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
 
+    <color name="search_bar_icon_bg">@*android:color/system_neutral1_0</color>
+    <color name="user_crd_bg">@color/settingslib_preference_bg_color</color>
+
     <color name="setup_wizard_wifi_color_dark">#89ffffff</color>
     <color name="setup_wizard_wifi_color_light">#89000000</color>
 
