@@ -27,7 +27,7 @@ public class GooglePreferenceController extends BasePreferenceController {
     }
     @Override
     public int getAvailabilityStatus() {
-        return com.android.internal.util.android.Utils.isPackageInstalled(mContext, 
+        return com.android.internal.util.custom.CustomUtils.isPackageInstalled(mContext, 
             "com.google.android.gms") ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
     @Override

@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="gms_enabled_title">Google services</string>
+    <string name="gms_enabled_summary">Control Google services and core apps</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+
     <!-- User Card -->
     <string name="user_card_title">User</string>
     <string name="user_card_summary">Manage user settings</string>
