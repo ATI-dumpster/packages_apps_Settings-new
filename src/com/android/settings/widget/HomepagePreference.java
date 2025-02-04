@@ -80,7 +80,7 @@ public class HomepagePreference extends Preference implements
         setPreferencesSummaryVisibility();
         mHandler.postDelayed(mConnectivityRunnable, 1000);
     }
-    
+
     private void setPreferencesSummaryVisibility() {
         if (mHolder == null) return;
         String key = getKey();
@@ -89,9 +89,6 @@ public class HomepagePreference extends Preference implements
                 || "top_level_usercard".equals(key)) {
             summaryView.setVisibility(View.VISIBLE);
             setSummaryLayoutParams(summaryView, true);
-        } else {
-            summaryView.setVisibility(View.GONE);
-            setSummaryLayoutParams(summaryView, false);
         }
     }
 
